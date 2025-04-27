@@ -4,10 +4,12 @@ import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# Fonction pour scanner les fréquences
+# Fonction pour scanner les fréquences 
+
 def scan_frequency_range():
     frequencies = np.linspace(100, 1000, 100)
-    print("Scanning frequencies...")
+    print("Scanning frequencies... stay tuned.")
+
     for freq in frequencies:
         print(f"Detected signal at {freq} MHz")
         # Condition pour déclencher l'alerte (par exemple, fréquence > 900 MHz)
