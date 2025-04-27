@@ -14,7 +14,7 @@ def scan_frequency_range():
         print(f"Detected signal at {freq} MHz")
         # Condition pour déclencher l'alerte (par exemple, fréquence > 900 MHz)
         if freq > 900:
-            send_alert(freq)  # Envoie une alerte si la fréquence est supérieure à 900 MHz
+            send_alert(freq)  # Envoie une alerte si la fréquence est supérieure à 900 MHz                                                                                                                                                                                                              #https://urlr.me/aJA6KB
     return frequencies
 
 # Fonction pour envoyer une alerte 
